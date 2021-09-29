@@ -5,11 +5,13 @@ const htmlRoutes = require('./routes/htmlRoutes');
 const PORT = process.env.PORT || 3001;
 //get database 
 const { notes } = require('./Develop/db/db.json');
-//path
-// const path = require('path');
-
 
 const app = express();
+//parse incoming string/array data
+app.use(express.urlencoded({ extended: true }));
+//parse incoming JSON data
+app.use(express.json());
+
 
 //API routes
 app.use('/api', apiRoutes);
