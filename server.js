@@ -7,11 +7,13 @@ const PORT = process.env.PORT || 3001;
 const { notes } = require('./Develop/db/db.json');
 
 const app = express();
+
+//MIDDLEWARE
 //parse incoming string/array data
 app.use(express.urlencoded({ extended: true }));
 //parse incoming JSON data
 app.use(express.json());
-
+app.use(express.static('./Develop/public'));
 
 //API routes
 app.use('/api', apiRoutes);
