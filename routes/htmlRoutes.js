@@ -4,8 +4,8 @@ const path = require('path');
 // HTML ROUTES: 
 // GET /notes should return the notes.html file.
 router.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, '../Develop/public/notes.html'));
-})
+  res.sendFile(path.join(__dirname, '../Develop/public/notes.html'));
+});
 
 // HTML ROUTES: 
 // GET * should return the index.html file.
