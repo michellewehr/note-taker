@@ -4,13 +4,11 @@
 
 - This application is intended to allow users to create notes with a title and a body. Notes will be saved and have the ability to be deleted.
 
-[Walkthrough Video](https://watch.screencastify.com/v/MjwIdLnbBpMryAjrXC0p)
-
 ## Installation
 
 Simply click the link to the deployed application on heroku.
 
-- [Deployed Application](https://safe-beach-19758.herokuapp.com/notes)
+- [Deployed Note Taker App](https://safe-beach-19758.herokuapp.com/notes)
 
 ## Usage
 
@@ -29,7 +27,7 @@ The purpose of this application is for users to be able to easily make notes on 
 
 ## This application can be found:
 
-- [Repository](https://github.com/michellewehr/note-taker)
+- [GitHub Repository](https://github.com/michellewehr/note-taker)
 - [Heroku- Deployed App](https://safe-beach-19758.herokuapp.com/notes)
 
 ## Contribution
