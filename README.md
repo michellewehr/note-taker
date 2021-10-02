@@ -8,7 +8,7 @@
 
 Simply click the link to the deployed application on heroku.
 
-- [Deployed Note Taker App](https://safe-beach-19758.herokuapp.com/notes)
+- [Deployed Note Taker App](https://safe-beach-19758.herokuapp.com/)
 
 ## Usage
 
@@ -28,7 +28,7 @@ The purpose of this application is for users to be able to easily make notes on 
 ## This application can be found:
 
 - [GitHub Repository](https://github.com/michellewehr/note-taker)
-- [Heroku- Deployed App](https://safe-beach-19758.herokuapp.com/notes)
+- [Heroku- Deployed App](https://safe-beach-19758.herokuapp.com/)
 
 ## Contribution
 
